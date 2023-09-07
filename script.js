@@ -1,4 +1,4 @@
-const apikey = "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";
+
 
 function test()
 {
