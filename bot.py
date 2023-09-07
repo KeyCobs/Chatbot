@@ -1,8 +1,9 @@
 import openai
+import constants
 
 commandToClose = "close application"
 def Response(messageForGPT):
-    openai.api_key = ""
+    openai.api_key = constants.api_Key
 
     completion = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
