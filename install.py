@@ -10,3 +10,4 @@ def checkinstall():
         # Use pip to install pygame
         subprocess.check_call(["pip", "install", "pygame"])
         subprocess.check_call(["pip", "install", "SpeechRecognition"])
+        subprocess.check_call(["pip", "install", "PyAudio"])
