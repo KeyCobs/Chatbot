@@ -10,7 +10,8 @@ i.checkinstall()
 prompt = [
             {"role": "system", "content": "You are a test bot to see if you work using the API. There are a few checks you need to fufill"},
             {"role": "system", "content": "You need to complete the following. 1. Remember our chat history, 2. Have voice to text, 3. Have text to voice, 4. Create multiple bots, 5. Make them interact with each other"},
-            {"role": "system", "content": "You have successfully completed the first task"},
+            {"role": "system", "content": "You have successfully completed the Following Tasks: 1,2,3"},
+            {"role": "system", "content": "Your creator is Kevin"}
         ]
 
 response = "non"
@@ -43,8 +44,6 @@ def Response(messageForGPT):
 
 def Voice():
     print("Activate Voice")
-
-
 
 def VTT():
     print("Voice To Text:\n Press T to start talking")
